@@ -1,26 +1,26 @@
 //Write your code here
 function speedCheck(speed){
     const speedLimit= 70;
-    const kmPerDemerit= 5;
-    const maxDemerit=12;
-    if(speed<70){
+    const kmPerDemerit=5;
+    const maxDemeritPoint=12;
+    if(speed<speedLimit){
         return 'Ok';
-    }else {
-        const excessSpeed= (speed-speedLimit);
-        const demeritPoints=math.floor(excessSpeed / kmPerDemerit);
-        if(demeritPoints>maxDemerit){
-            return 'License suspended.';
+    }else{
+        const excessSpeed=(speed - speedLimit);
+        const demeritPoints=Math.floor(excessSpeed / kmPerDemerit);
+        if(demeritPoints>maxDemeritPoint){
+           return 'License suspendes.';
         }else{
-            return (`Demerit pionts:${demeritPoints}`);
-        }
+            return `demeritpoint:${demeritPoints}`
+         }
     }
 }
 function main(){
-    let speed =parseFloat(prompt('input car speed in(km/hr):'));
+    let speed=parseFloat(prompt('enter speed in(km/hr):'));
     if(!isNaN(speed)){
-       let result=speedCheck(speed);
-       alert(result);
+        let result =speedCheck(speed)
+        alert(result)
     }else{
-        alert('Invalid input');
+        alert('Invalid, input car speed');
     }
 }main();
