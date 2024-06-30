@@ -3,7 +3,8 @@
  //Description
  JavaScript engine takes student marks and output grades according to the grading system.
  //Features
- alert the student with correct grades
+ alert the student with correct grades.
+ 
 
  SPEED CHECK AND CALCULATION OF DEMERITS POINTS
  //Description 
@@ -11,7 +12,8 @@
  //Features
  check speed
  calculate demerits pionts
- alert driver
+ alert driver.
+ 
  NET SALARY CALCULATOR
  //Description 
  JavaScript engine takes in basic salary and output net salary
@@ -23,4 +25,4 @@
            - net salary
  prompt user to enter basic salary
  prompt user to enter benefits          
- alert user net salary          
+ alert user net salary.        
