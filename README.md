@@ -12,3 +12,15 @@
  check speed
  calculate demerits pionts
  alert driver
+ NET SALARY CALCULATOR
+ //Description 
+ JavaScript engine takes in basic salary and output net salary
+ //Features
+ calculate - gross salary
+           - payeeTax 
+           - NHIF deduction
+           - NSSF deduction
+           - net salary
+ prompt user to enter basic salary
+ prompt user to enter benefits          
+ alert user net salary          
