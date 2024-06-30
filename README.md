@@ -25,4 +25,8 @@
            - net salary
  prompt user to enter basic salary
  prompt user to enter benefits          
- alert user net salary.        
+ alert user net salary.   
+
+
+ N/B add HTML file for testing
+ 
